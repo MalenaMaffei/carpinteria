@@ -1,12 +1,27 @@
+// 
 // Main Sass File
-$bg-color:#333;
-$font-color: white;
-$primary-color: #008ed6;
+$bg-color:#AE6F39;
+$font-color: #59544c;
+$primary-color: #d5912b;
 $dark-overlay: rgba(0, 0, 0, 0.7);
 $icon-size: 30px;
+$bg-primary: $primary-color;
+$font-color-secondary: #E0DAD1;
+$theme-colors: ( "primary": $primary-color, "danger": #ff4136);
 body {
-    background: $bg-color;
+    background: url(../images/bg-main.png) repeat center top #f3f0ea;
     color: $font-color;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+    font-family: 'Old Standard TT', serif;
 }
 
 .navbar {
@@ -19,6 +34,7 @@ body {
     min-height: 700px;
     background-size: cover;
     background-attachment: fixed;
+    color: $font-color-secondary;
     .dark-overlay {
         background-color: $dark-overlay;
         position: absolute;
@@ -46,7 +62,7 @@ body {
 #share-section {
     .fa {
         color: white;
-        background: #333;
+        background: $bg-color;
         padding: 4px;
         border-radius: 5px;
         font-size: $icon-size;
@@ -62,3 +78,5 @@ body {
         font-size: $icon-size;
     }
 }
+
+// @import "node_modules/bootstrap/scss/bootstrap";
