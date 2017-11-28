@@ -1,4 +1,6 @@
-// 
+@import 'node_modules/bootstrap/scss/functions';
+// @import "node_modules/bootstrap/scss/custom";
+@import "node_modules/bootstrap/scss/variables";
 // Main Sass File
 $bg-color:#AE6F39;
 $font-color: #59544c;
@@ -79,4 +81,4 @@ h6,
     }
 }
 
-// @import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";
