@@ -16,12 +16,12 @@ h6,
   border-bottom: #d5912b 3px solid; }
 
 #home-section {
-  min-height: 550px;
+  min-height: 515px;
   background-size: cover;
   background-attachment: fixed;
   color: #59544c; }
   #home-section .home-inner {
-    padding-top: 150px; }
+    padding-top: 120px; }
 
 #quote {
   background: rgba(190, 185, 176, 0.2);
