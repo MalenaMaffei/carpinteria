@@ -38,6 +38,9 @@ h6,
   color: #666;
   font-family: 'Old Standard TT', serif; }
 
+#create-section {
+  background: rgba(190, 185, 176, 0.2); }
+
 .pimg2 {
   position: relative;
   opacity: 0.70;
