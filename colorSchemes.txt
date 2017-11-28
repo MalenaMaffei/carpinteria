@@ -97,6 +97,6 @@
 Este iria con el fondo que baje
 #d5912b   -> color para botones y acentos
 #938f89   -> para cosas mas tranquis como text-muted
-
+#303538 -> nav bar
 y este es el css
 url(../images/bg-main.png) repeat center top #f3f0ea

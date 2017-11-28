@@ -1,6 +1,6 @@
 body {
-  background: url(../images/bg-main.png) repeat center top #f3f0ea;
-  color: #59544c;
+  background: url(../img/bg-main.png) repeat center top #f3f0ea;
+  color: #303538;
   font-family: 'Roboto', sans-serif; }
 
 h1,
@@ -10,50 +10,72 @@ h4,
 h5,
 h6,
 .navbar-brand {
-  font-family: 'Old Standard TT', serif; }
+  font-family: "Old Standard TT", serif !important; }
 
 .navbar {
-  border-bottom: #d5912b 3px solid;
-  opacity: 0.8; }
+  border-bottom: #d5912b 3px solid; }
 
 #home-section {
-  background: url("../img/home.jpg") no-repeat;
-  min-height: 700px;
+  min-height: 550px;
   background-size: cover;
   background-attachment: fixed;
-  color: #E0DAD1; }
-  #home-section .dark-overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 700px; }
+  color: #59544c; }
   #home-section .home-inner {
     padding-top: 150px; }
-  #home-section .card-form {
-    opacity: 0.8; }
-  #home-section .fa {
-    color: #d5912b;
-    background: white;
-    padding: 4px;
-    border-radius: 5px;
-    font-size: 30px; }
 
-#explore-section .fa,
-#share-section .fa {
-  color: white;
-  background: #AE6F39;
-  padding: 4px;
-  border-radius: 5px;
-  font-size: 30px; }
+#quote {
+  background: rgba(190, 185, 176, 0.2);
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 40px; }
 
-#create-section .fa {
-  color: #d5912b;
-  background: white;
-  padding: 4px;
-  border-radius: 5px;
-  font-size: 30px; }
+#quote p {
+  font-size: 32px;
+  color: black; }
+
+#quote p.customer {
+  font-size: 20px;
+  color: #666;
+  font-family: 'Old Standard TT', serif; }
+
+.pimg2 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*fixed = parallax, scroll = normal*/
+  background-attachment: fixed; }
+
+.pimg2 {
+  background-image: url("../img/pexels-photo-122588.jpeg");
+  min-height: 400px; }
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase; }
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px; }
+
+.ptext .border.trans {
+  background-color: transparent; }
+
+footer {
+  width: auto;
+  max-width: 67.5em;
+  border-top: double 6px #d6d4cf;
+  text-align: center;
+  margin: 0 0.9375em;
+  color: #59544c; }
 
 /*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
