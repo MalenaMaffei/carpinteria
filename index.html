@@ -16,7 +16,7 @@
 <body id="home">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <div class="container">
-            <a href="index.html" class="navbar-brand">Muebles</a>
+            <a href="index.html" class="navbar-brand"><strong>Muebles</strong></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
@@ -162,7 +162,7 @@
             </div>
             <div class="row">
 
-                <div class="col-md-6 text-center" id="left">
+                <div class="col-md-6 text-center">
                     <p>Escribinos tus dudas, consultas o pedidos de presupuesto. Aca puede haber info sobre social media tmb</p>
                     <div class="d-flex flex-row">
                         <div class="p-4 align-self-start">
@@ -182,7 +182,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6" id="right">
+                <div class="col-md-6">
                     <form>
                         <div class="form-group">
                             <label for="name">Nombre</label>
@@ -310,6 +310,10 @@
             origin: 'right',
             distance: '300px',
             viewFactor: '0.2'
+        });
+        sr.reveal('#contact-section', {
+            duration: 2000,
+            origin: 'bottom'
         });
     </script>
     <script>
