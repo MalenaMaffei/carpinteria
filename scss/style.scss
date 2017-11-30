@@ -14,6 +14,7 @@ $bg-primary: $primary-color;
 $font-color-light: #E0DAD1;
 $theme-colors: ( "primary": $primary-color, "danger": #ff4136);
 $quote-color: rgba(190, 185, 176, 0.2);
+$info-color: rgba(245,243,241,0.95);
 $menu-items: #A9A69F;
 body {
     background: url(../img/bg-main.png) repeat center top #f3f0ea;
@@ -129,8 +130,24 @@ footer {
 
 }
 
-.btn-outline-primary{
-    border: 15px;
+.card-img-overlay{
+    background: $info-color;
+    margin: 17%;
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+hr.short {
+    border: none;
+    border-bottom: solid 5px #bebab2;
+    width: 12%;
+    margin: 0.4em auto 1.7em;
+}
+
+.info-link{
+    color: $primary-color;
 }
 
 // #explore-section,

@@ -88,8 +88,22 @@ footer {
 .btn {
   border-radius: 0 !important; }
 
-.btn-outline-primary {
-  border: 15px; }
+.card-img-overlay {
+  background: rgba(245, 243, 241, 0.95);
+  margin: 17%;
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 1.5em 0; }
+
+hr.short {
+  border: none;
+  border-bottom: solid 5px #bebab2;
+  width: 12%;
+  margin: 0.4em auto 1.7em; }
+
+.info-link {
+  color: #d5912b; }
 
 /*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
