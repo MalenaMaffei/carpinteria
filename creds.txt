@@ -1,0 +1,11 @@
+>>> $user = new App\User();
+=> App\User {#755}
+>>> $user->password = Hash::make('Maleines2412');
+=> "$2y$10$3mGW29sY5UVze49NB84vVO/6uR.YqUE2VkAAwoprQLvxKCAarkLRa"
+>>> $user->email = 'malenamaffei@hotmail.com';
+=> "malenamaffei@hotmail.com"
+>>> $user->name = 'admin';
+=> "admin"
+>>> $user->save();
+=> true
+
