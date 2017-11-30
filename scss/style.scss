@@ -115,6 +115,24 @@ footer {
     color: $font-color-secondary;
 }
 
+.card {
+  border-radius: 0 !important;
+  border: 0 !important;
+  .card-body{
+      border: 0 !important;
+  }
+}
+
+.btn {
+    border-radius: 0 !important;
+
+
+}
+
+.btn-outline-primary{
+    border: 15px;
+}
+
 // #explore-section,
 // #share-section {
 //     .fa {

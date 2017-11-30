@@ -79,6 +79,18 @@ footer {
   margin: 0 0.9375em;
   color: #59544c; }
 
+.card {
+  border-radius: 0 !important;
+  border: 0 !important; }
+  .card .card-body {
+    border: 0 !important; }
+
+.btn {
+  border-radius: 0 !important; }
+
+.btn-outline-primary {
+  border: 15px; }
+
 /*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
