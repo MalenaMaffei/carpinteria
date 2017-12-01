@@ -180,7 +180,7 @@ hr.short {
         padding-left: 4%;
         // line-height: 1px;
         position: absolute;
-        top: 80%;
+        top: 78%;
         /* position the top  edge of the element at the middle of the parent */
         // right: 0%;
         // left: 85%;
@@ -190,7 +190,9 @@ hr.short {
         // float: right;
         .prod-name{
             // color: #bebab2;
-            font-size: 50px;
+            // font-size: 60px;
+            // font-size: 200%;
+            font-size: 7vmin;
         }
     }
 }

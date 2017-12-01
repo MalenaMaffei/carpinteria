@@ -112,10 +112,10 @@ hr.short {
   padding-right: 2%;
   padding-left: 4%;
   position: absolute;
-  top: 80%;
+  top: 78%;
   /* position the top  edge of the element at the middle of the parent */ }
   .prod-detail figcaption .prod-name {
-    font-size: 50px; }
+    font-size: 7vmin; }
 
 figure {
   overflow: hidden;
