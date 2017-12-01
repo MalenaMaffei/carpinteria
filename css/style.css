@@ -89,7 +89,7 @@ footer {
   border-radius: 0 !important; }
 
 .card-img-overlay {
-  background: rgba(245, 243, 241, 0.95);
+  background: #f5f3f1;
   margin: 17%;
   position: relative;
   display: block;
@@ -99,11 +99,45 @@ footer {
 hr.short {
   border: none;
   border-bottom: solid 5px #bebab2;
-  width: 12%;
-  margin: 0.4em auto 1.7em; }
+  width: 100%;
+  margin: 0.4em auto 1.7em;
+  margin-top: 20px; }
 
 .info-link {
   color: #d5912b; }
+
+figure {
+  display: inline-block;
+  /* Here !!! */
+  position: relative;
+  margin: 0; }
+
+figcaption {
+  position: absolute;
+  background-color: #f5f3f1;
+  padding: 60px;
+  line-height: 18px;
+  position: absolute;
+  top: 50%;
+  /* position the top  edge of the element at the middle of the parent */
+  left: 50%;
+  /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: visibility 0.35s linear, opacity 0.35s linear; }
+
+a.prod-link {
+  color: inherit;
+  text-decoration: none;
+  line-height: inherit; }
+  a.prod-link:hover {
+    color: inherit; }
+    a.prod-link:hover figcaption {
+      visibility: visible;
+      opacity: 0.8;
+      filter: alpha(opacity=80); }
 
 /*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
